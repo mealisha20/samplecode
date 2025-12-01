@@ -6,7 +6,7 @@
 curl -X GET "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students"
 
 # B. Get One Student
-curl -X GET "http://localhost:8000/api/students/1"
+curl -X GET "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students/1"
 
 # C. Create Student
 curl -X POST "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students" \
@@ -19,7 +19,7 @@ curl -X POST "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/ap
   }'
 
 # D. Update Student
-curl -X PUT "http://localhost:8000/api/students/1" \
+curl -X PUT "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students/1" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Alice Updated",
@@ -29,7 +29,7 @@ curl -X PUT "http://localhost:8000/api/students/1" \
   }'
 
 # E. Delete Student
-curl -X DELETE "http://localhost:8000/api/students/1"
+curl -X DELETE "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students/1"
 
 
 ##################### DB Observation Via SQLite Web
